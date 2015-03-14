@@ -17,7 +17,7 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 7 == 0 && i % 5 != 0)
 		{
-			printf("\nThe %.3d number is ", count);
+			printf("\nThe %.3d number is ", count);	//	.3 between %d to set the 3 digits to the right of "."
 			printf("%d\n", i);
 			count++;
 		}
