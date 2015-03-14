@@ -3,27 +3,39 @@
 //COURSE	:	CSCI 281 Section A
 //FILE		:	lab_01_part_b_1000_primes_wo_functions
 //GOAL		:	To complete Lab 1, using While loop to write a program to find first 1,000 prime numbers
-//PURPOSE	:	To learn to write a program to print the first 1,000 prime numbers without a function
+//PURPOSE	:	To learn to write a program to print the first 1,000 prime numbers WITHOUT a function
 
 #include<stdio.h>
 
-//Part 3: Print the first 1000 Prime numbers
+//Part 3: Print the first 1000 Prime numbers WITHOUT FUNCTIONS
 
 int main(void)
 {
 	int i;
-	int n = 2;
+	int n = 1;
 	int count = 1;
 	int number_of_factors;
 
-	while (count <= 1000)
+	while (count <= 1000)	// Program will stop if COUNT reach 1000 times. It means after printing 1000 PRIME numbers
 	{
+		number_of_factors = 0;
 		for (i = 1; i <= n; i++)
 		{
 			if (n % i == 0)
 			{
 				number_of_factors++;
 			}
+		}
+
+		if (number_of_factors == 2)
+		{
+			printf("\n%d", n);
+			count++;
+			n++;
+		}
+		else
+		{
+			n++;
 		}
 	}
 
