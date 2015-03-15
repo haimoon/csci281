@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab_02_1000_palindromes", "lab_02_1000_palindromes\lab_02_1000_palindromes.vcxproj", "{D418C78F-8C24-42E4-9A3C-9E6D006CBFF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D418C78F-8C24-42E4-9A3C-9E6D006CBFF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D418C78F-8C24-42E4-9A3C-9E6D006CBFF2}.Debug|Win32.Build.0 = Debug|Win32
+		{D418C78F-8C24-42E4-9A3C-9E6D006CBFF2}.Release|Win32.ActiveCfg = Release|Win32
+		{D418C78F-8C24-42E4-9A3C-9E6D006CBFF2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
