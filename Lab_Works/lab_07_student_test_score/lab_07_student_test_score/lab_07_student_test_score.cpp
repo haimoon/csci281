@@ -23,7 +23,7 @@ int main(void)
 	{
 		for (j = 0; j <= 2; j++)
 		{
-			printf("\n Please enter the numeric score for student %d in test %d: ", i+1, j+1);
+			printf("Please enter the numeric score for student %d in test %d: ", i+1, j+1);
 			scanf_s("%d", &score[i][j]);
 		}
 	}
@@ -44,7 +44,7 @@ int main(void)
 
 //	Part 3: Find test average for each test
 	
-	for (j = 0; j <= 2; j++);
+	for (j = 0; j <= 2; j++)
 	{
 		total = 0;
 		for (i = 0; i <= 4; i++)
@@ -53,7 +53,7 @@ int main(void)
 		}
 		avg = total / 5.0;
 		test_averages[j] = avg;
-		printf("\n The average score for test %d is %f", j, avg);
+		printf("\n The average score for test %d is %f", j+1, avg);
 	}
 
 	getchar();getchar();
