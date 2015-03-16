@@ -6,6 +6,15 @@
 //				and to see how ordinary values and array variables are passed to functions.
 //PURPOSE	:	Using Array, Loop, Function
 
+/*	Ordinary Variables: Passed by Call by Value
+	Array Variables:	Passed by Call by Reference
+
+	The problem here is that we are unable to get the function magnify_factor() to change anything
+	in main() itself
+
+	The machanism of copying values from the actual parameters in the calling function to the formal
+	parameters in the called functions is known as CALL BY VALUE
+*/
 
 #include<stdio.h>
 //	Part 1 Function Call
