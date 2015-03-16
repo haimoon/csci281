@@ -7,7 +7,7 @@
 
 #include<stdio.h>
 
-//Part 3: Print the first 1000 Prime numbers WITHOUT FUNCTIONS
+//Part 3: Print the first 1000 Prime numbers WITHOUT FUNCTIONS	-	This is the solution for main question
 
 int main(void)
 {
@@ -44,8 +44,8 @@ int main(void)
 }
 
 
-
-// Part 1: Print the first 1000 numbers-------------------
+/*	PRACTICE ONLY	*/
+// Part 1: Print the first 1000 numbers using WHILE loop	-------------------
 
 /*
 int main(void)
@@ -62,8 +62,8 @@ int main(void)
 }
 */
 
-
-//Part 2: Find Prime number-------------------------------
+/*	PRACTICE ONLY	*/
+//Part 2: Find Prime number	-	Using FOR loop	-------------------------------
 
 /*
 int main(void)

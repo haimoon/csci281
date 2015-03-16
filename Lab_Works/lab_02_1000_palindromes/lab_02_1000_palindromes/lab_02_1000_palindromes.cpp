@@ -8,6 +8,7 @@
 
 int is_palindrome(int n);
 int get_reverse(int n);
+int get_number_of_palindromes_between(int a, int b);
 
 
 
@@ -16,6 +17,10 @@ int main(void)
 	int palindromes[1000];	//The number of Palindromes that we need to print out
 	int count = 0;			//The number of Palindromes that we have gotten
 	int i = 1;				//The number we start with
+	int a;
+	int b;
+
+//	PART 1:	Print out the first 1000 PRIME numbers
 
 	while (count <= 999)
 	{
@@ -30,7 +35,16 @@ int main(void)
 		{
 			i++;
 		}
+
 	}
+
+//PART 2:	Print out the NUMBER of prime number between (int a, int b). Example: from 1 to 1000 (108)
+//			1 - 1,000,000; 1,000,000 - 2,000,000
+
+	printf("\n The program will let you know how many prime\n numer between 2 integers. Please enter 2 integers:	");
+	scanf_s("%d %d", &a, &b);
+	get_number_of_palindromes_between(a, b);
+	printf("\n The number of PRIME numbers between %d and %d is: %d", a, b, get_number_of_palindromes_between(a, b));
 
 	getchar();getchar();
 	return 0;
@@ -71,7 +85,7 @@ for (i = a; i <= b; i++)
 {
 if (is_palindrome(i) == 1)
 {
-printf("%d", i);
+printf("%d\n", i);
 count = count + 1;
 }
 }
