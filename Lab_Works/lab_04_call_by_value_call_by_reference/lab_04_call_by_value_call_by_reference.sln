@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab_04_call_by_value_call_by_reference", "lab_04_call_by_value_call_by_reference\lab_04_call_by_value_call_by_reference.vcxproj", "{71FB2C2F-CCEE-4CF0-A950-CC4702880865}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71FB2C2F-CCEE-4CF0-A950-CC4702880865}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71FB2C2F-CCEE-4CF0-A950-CC4702880865}.Debug|Win32.Build.0 = Debug|Win32
+		{71FB2C2F-CCEE-4CF0-A950-CC4702880865}.Release|Win32.ActiveCfg = Release|Win32
+		{71FB2C2F-CCEE-4CF0-A950-CC4702880865}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
