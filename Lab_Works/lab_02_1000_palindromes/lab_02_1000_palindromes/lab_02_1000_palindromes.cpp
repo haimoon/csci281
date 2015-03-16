@@ -78,16 +78,16 @@ int get_reverse(int i)
 
 int get_number_of_palindromes_between(int a, int b)
 {
-int i;
-int count = 0;
+	int i;
+	int count = 0;
 
-for (i = a; i <= b; i++)
-{
-if (is_palindrome(i) == 1)
-{
-printf("%d\n", i);
-count = count + 1;
-}
-}
-return count;
+	for (i = a; i <= b; i++)
+	{
+		if (is_palindrome(i) == 1)
+		{
+			printf("%d\n", i);
+			count = count + 1;
+		}
+	}
+	return count;
 }
