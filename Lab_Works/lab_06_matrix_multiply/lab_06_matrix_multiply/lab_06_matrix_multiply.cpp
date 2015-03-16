@@ -16,7 +16,7 @@ int main(void)
 
 	int i;	// Row
 	int j;	// Colum
-	int k;
+	int k;	// Row to matrix A but Column to matrix B
 
 	for (i = 0; i <= 2; i++)
 	{
@@ -25,11 +25,10 @@ int main(void)
 			C[i][j] = 0;
 			for (k = 0; k <= 2; k++)
 			{
-				C[i][j] = C[i][j] + A[i][k] * B[k][j];
+				C[i][j] = C[i][j] + A[i][k] * B[k][j];	// The first result will be C[0][0] = 1 + 4 + 9 = 14
 			}
 		}
 	}
-
 
 	printf("\n The first matrix is:");
 	print_matrix(A);
