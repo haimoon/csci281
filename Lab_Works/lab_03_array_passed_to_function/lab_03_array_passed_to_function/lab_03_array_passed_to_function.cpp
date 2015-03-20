@@ -10,7 +10,7 @@
 #include<stdio.h>
 
 float get_average_value_in_array(int a[], int n);
-int get_largest_value_in_array(int a[], int n);
+int get_largest_value_in_array(int my_array[], int n);
 int get_smallest_value_in_array(int a[], int n);
 
 int main(void)
@@ -46,15 +46,15 @@ float get_average_value_in_array(int a[], int n)
 	return avg;
 }
 
-int get_largest_value_in_array(int a[], int n)
+int get_largest_value_in_array(int my_array[], int n)
 {
-	int max = a[0];
+	int max = my_array[0];
 	int i;
 	for (i = 0; i <= n - 1; i++)
 	{
-		if (a[i] >= max)
+		if (my_array[i] >= max)
 		{
-			max = a[i];
+			max = my_array[i];
 		}
 	}
 	return max;

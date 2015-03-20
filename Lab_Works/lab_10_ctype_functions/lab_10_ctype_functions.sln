@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab_10_ctype_functions", "lab_10_ctype_functions\lab_10_ctype_functions.vcxproj", "{89F670D1-5E74-46F4-8587-4C6054C8E34F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89F670D1-5E74-46F4-8587-4C6054C8E34F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{89F670D1-5E74-46F4-8587-4C6054C8E34F}.Debug|Win32.Build.0 = Debug|Win32
+		{89F670D1-5E74-46F4-8587-4C6054C8E34F}.Release|Win32.ActiveCfg = Release|Win32
+		{89F670D1-5E74-46F4-8587-4C6054C8E34F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
