@@ -71,6 +71,17 @@ int main(void)
 		}
 	}
 
+	//	Method 03: Try to use any thing to make it works as it supposes to work.
+	char my_char;
+	printf("\n Please enter a character variable, and I will convert it to uppercase, if necessary: ");
+
+	char my_char_test = 'y';	//	This declaration use to test whether the toupper works or NOT
+	scanf_s("           %c", &my_char);
+
+	printf("\n The variable, %c in uppercase form, is %c", my_char, toupper(my_char));
+	printf("\n The variable, in uppercase form, is %c", toupper(my_char_test));	//	And it works.
+	
+	getchar();getchar();getchar();
 
 //	Experiment 06: Print all the lowercase letters
 	printf("\n Experiment 06: Print all the lowercase letters \n");

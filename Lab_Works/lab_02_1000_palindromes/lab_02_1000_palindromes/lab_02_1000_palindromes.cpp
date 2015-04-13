@@ -41,10 +41,10 @@ int main(void)
 //PART 2:	Print out the NUMBER of prime number between (int a, int b). Example: from 1 to 1000 (108)
 //			1 - 1,000,000; 1,000,000 - 2,000,000
 
-	printf("\n The program will let you know how many prime\n numer between 2 integers. Please enter 2 integers:	");
+	printf("\n The program will let you know how many Palindrome\n numers between 2 integers. Please enter 2 integers:	");
 	scanf_s("%d %d", &a, &b);
 	get_number_of_palindromes_between(a, b);
-	printf("\n The number of PRIME numbers between %d and %d is: %d", a, b, get_number_of_palindromes_between(a, b));
+	printf("\n The number of Palindrome numbers between %d and %d is: %d", a, b, get_number_of_palindromes_between(a, b));
 
 	getchar();getchar();
 	return 0;
