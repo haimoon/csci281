@@ -20,7 +20,7 @@ int main(void)
 	int a;
 	int b;
 
-//	PART 1:	Print out the first 1000 PRIME numbers
+//	PART 1:	Print out the first 1000 Palindrome numbers
 
 	while (count <= 999)
 	{
