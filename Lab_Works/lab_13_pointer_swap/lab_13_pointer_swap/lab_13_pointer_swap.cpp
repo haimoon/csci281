@@ -8,7 +8,7 @@
 
 void swap(int a, int b);
 
-void swap_2(int *k, int *l);
+void swap_2(int *a, int *b);
 
 int main(void)
 {
@@ -41,10 +41,10 @@ void swap(int a, int b)
     b = temp;
 }
 
-void swap_2(int *k, int *l)
+void swap_2(int *a, int *b)
 {
     int temp;
-    temp = *k;
-    *k = *l;
-    *l = temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
 }
